@@ -1,0 +1,65 @@
+{
+  "name": "nuxt-stencil",
+  "version": "0.1.0",
+  "description": "Easy Stencil component library integration with Nuxt.js",
+  "author": {
+    "name": "Gomah <hi@gomah.fr>"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxt.js",
+    "stencil",
+    "stencil-js",
+    "nuxt-stencil"
+  ],
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "repository": "https://github.com/Gomah/nuxt-stencil",
+  "homepage": "https://github.com/Gomah/nuxt-stencil",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "prepublishOnly": "yarn build",
+    "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.ts$\"",
+    "build": "tsc -b",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "watch": "tsc --watch",
+    "test": "yarn test:lint && NODE_ENV=test jest",
+    "test:lint": "eslint --ext .js,.ts, src/"
+  },
+  "dependencies": {
+    "consola": "^2.10.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@nuxt/types": "^0.3.1",
+    "@types/consola": "^1.0.0",
+    "@types/jest": "^24.0.19",
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-jest": "^24.9.0",
+    "bulmil": "^0.0.5",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-typescript": "^5.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "nuxt": "^2.10.1",
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
