@@ -64,8 +64,8 @@ module.exports = {
 This module has multiple functionalities:
 
 1. It creates two hooks for SSR & Generate, using `render:route` & `generate:page`, it will render the stencil components before sending back the request to the browser.
-2. It inject a plugin for CSR to define the custom elements from your stencil library.
-3. Configure Vue.config.ignoredElements to ignore your stencil library.
+2. It injects a plugin for CSR to define the custom elements from your stencil library.
+3. It configures `Vue.config.ignoredElements` to ignore custom elements from your stencil library.
 
 ## Development
 
