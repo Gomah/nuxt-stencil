@@ -2730,17 +2730,17 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bulma-scss@^0.7.5-1:
-  version "0.7.5-1"
-  resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.7.5-1.tgz#28cca2e36e04a46df4584b390950c12b1f7a33a6"
-  integrity sha512-aGsGq9S5I/3dSgu71Vm3Pq9+g1rk04T7/7HmlZUTYTRncjUKBM3OlHrOijuS6HyErR6SzI/NSVcPzC7r1276Ww==
+bulma-scss@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.8.0.tgz#d5e33bc2848e1735c8c4738af9c39f30e1dcf45b"
+  integrity sha512-fm/wMyR5zNSBR3YrptGgPFSQOmGcUWYQabqB9jZQgrk6gBUwYZokiU4Uvgb4lfXxqIIKroCvM5lz/CMYXR0oVg==
 
-bulmil@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.5.tgz#05842e44377dc47aba4cfc7bd979085e75951f68"
-  integrity sha512-q7MKdPOq/mCKHGXTadvD7PQ1yD3UO8wVyL08xd01qzuI5I4RyuLRekcGMMtZPvO0ap2IYKZiOFyXIWqUwymtpg==
+bulmil@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.6.tgz#1b0fc4971ea3a30adfa7ed2cd47407630b9514a2"
+  integrity sha512-U26Rc9snE13bq4/b/+enD9h9nHp6ggkgyfr+J49EY+/3SjVC6XI3wixGyzMH2b1XuneQlACgxR7NMtn/ezhx9A==
   dependencies:
-    bulma-scss "^0.7.5-1"
+    bulma-scss "^0.8.0"
 
 bytes@3.0.0:
   version "3.0.0"
