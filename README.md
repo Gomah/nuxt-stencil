@@ -9,6 +9,8 @@
 
 > Easy <a href="https://github.com/ionic-team/stencil">Stencil.js</a> component library integration with Nuxt.js.
 
+:warning: Known issue: [Mismatching nodes during client-side hydration](https://github.com/Gomah/nuxt-stencil/issues/4)
+
 ## Setup
 
 Install with yarn:
@@ -27,7 +29,7 @@ npm install nuxt-stencil
 
 ```ts
 module.exports = {
-  buildModules: ['nuxt-stencil'],
+  modules: ['nuxt-stencil'],
 
   stencil: {
     /**
