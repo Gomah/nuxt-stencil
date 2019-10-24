@@ -1,6 +1,6 @@
 {
   "name": "nuxt-stencil",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy Stencil component library integration with Nuxt.js",
   "author": {
     "name": "Gomah <hi@gomah.fr>"
