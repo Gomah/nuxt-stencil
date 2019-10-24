@@ -3,7 +3,7 @@ const resolve = require('path').resolve;
 module.exports = {
   rootDir: resolve(__dirname, '../..'),
   srcDir: __dirname,
-  buildModules: ['../../lib/module'],
+  modules: ['../../lib/module'],
   stencil: {
     lib: 'bulmil',
     prefix: 'bm-',

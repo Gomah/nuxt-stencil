@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import path from 'path';
 import { renderStencil } from './helpers';
 
@@ -40,17 +39,11 @@ function stencilModule(_moduleOptions): void {
     Object.assign(moduleOptions, { loaderPath: `${moduleOptions.lib}/dist/loader` });
   }
 
-  // Tell vue to ignore the web components
-  Vue.config.ignoredElements = moduleOptions.ignoredElements || [
-    new RegExp(`/${moduleOptions.prefix}\w*/`),
-  ];
-
   // Add CSR plugin for Stencil
   this.addPlugin({
     src: path.resolve(__dirname, 'plugin.js'),
     fileName: 'stencil.js',
     options: moduleOptions,
-    ssr: false,
   });
 
   const { renderToString } = require(moduleOptions.hydratePath);
