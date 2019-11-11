@@ -2710,10 +2710,10 @@ bulma-scss@^0.8.0:
   resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.8.0.tgz#d5e33bc2848e1735c8c4738af9c39f30e1dcf45b"
   integrity sha512-fm/wMyR5zNSBR3YrptGgPFSQOmGcUWYQabqB9jZQgrk6gBUwYZokiU4Uvgb4lfXxqIIKroCvM5lz/CMYXR0oVg==
 
-bulmil@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.8.tgz#cf83f35e342d1b8b713e742cd9b1286bc01ccb9f"
-  integrity sha512-DRUw4p4I4xaHjJMZ+mJ0v3g10wm7c6iyo543Emmd3UqHMlyrcFhFMqNGKc8t5RI1cwiLLU6c0lF3BLYY+kxBOA==
+bulmil@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.9.tgz#41ace42e2cf8b3837dafb4f19ef346b3e5232843"
+  integrity sha512-Zid79mwJNZIUymkSxCuV9No4PhFj8FCrdPSXYKiGF0jKtGvblbBa5hU6flo2S5taixRoddsKTVy/LDlfzke7ig==
   dependencies:
     bulma-divider "^0.2.0"
     bulma-scss "^0.8.0"
