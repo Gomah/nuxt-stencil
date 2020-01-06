@@ -37,7 +37,7 @@
     "consola": "^2.11.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^8.2.0",
     "@nuxt/types": "^0.6.0",
     "@types/consola": "^2.2.5",
