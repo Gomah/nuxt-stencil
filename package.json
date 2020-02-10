@@ -47,7 +47,7 @@
     "@typescript-eslint/eslint-plugin": "^2.19.0",
     "@typescript-eslint/parser": "^2.19.0",
     "babel-jest": "^25.1.0",
-    "bulmil": "^0.0.16",
+    "bulmil": "^0.0.17",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-typescript": "^6.3.1",
     "eslint-config-prettier": "^6.10.0",
