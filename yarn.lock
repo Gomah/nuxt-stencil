@@ -2840,10 +2840,10 @@ bulma-switch@^2.0.0:
   resolved "https://registry.yarnpkg.com/bulma-switch/-/bulma-switch-2.0.0.tgz#7a187cd1bb8073e9a542478d936b89315f1ffcd8"
   integrity sha512-myD38zeUfjmdduq+pXabhJEe3x2hQP48l/OI+Y0fO3HdDynZUY/VJygucvEAJKRjr4HxD5DnEm4yx+oDOBXpAA==
 
-bulmil@^0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.18.tgz#b3b81c08e877ee4142781d86a81718e31e154c41"
-  integrity sha512-QFVjJXO2U6CDd3ZfyD8xJf3QCF9ol1YDLWLUNBcGHCeMKrXsq+sQs4EWGYgpDKe0/2wUHXG5c0WiKvvioKBJAg==
+bulmil@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.0.19.tgz#cb59976370a5676fbcca404155ecc3ab6c934ca0"
+  integrity sha512-0eP60zv9001nsvdsKh7TjyNRPpVCRQiCTID0VsIqMbFRgGgPNxJ7XQ3krJHBUZUi9odKjvA1UwUcH1rGSzRRjA==
   dependencies:
     bulma-divider "^0.2.0"
     bulma-scss "^0.8.0"
