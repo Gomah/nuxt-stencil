@@ -3153,18 +3153,24 @@ bulma-scss@^0.8.1:
   resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.8.1.tgz#595eb21f3351143c53465deb4c00570475cb2c98"
   integrity sha512-i1Mwbz37efyu7FprHi72jUJeGiNL3zaiZhYOnikcU3+xTsxqLqfe09OJgITo3jPLhkNxIA8hYmJysyXObFXCPQ==
 
+bulma-slider@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/bulma-slider/-/bulma-slider-2.0.0.tgz#0be9b016228b62b8189891e67eafbf5aba846699"
+  integrity sha512-lXKMA/U43Fi1UnMkVYdNuEu0cGLo4JSWFUcnEyzNXkdpmDFic+d8H9oiaRoLbPiuGTC5SNoHMCP24T5544gnlQ==
+
 bulma-switch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/bulma-switch/-/bulma-switch-2.0.0.tgz#7a187cd1bb8073e9a542478d936b89315f1ffcd8"
   integrity sha512-myD38zeUfjmdduq+pXabhJEe3x2hQP48l/OI+Y0fO3HdDynZUY/VJygucvEAJKRjr4HxD5DnEm4yx+oDOBXpAA==
 
-bulmil@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.1.4.tgz#83797a2c600889b382a86447e7e1d799b700324b"
-  integrity sha512-QwnDOTq8wK+/gd4dqUBK/BS+ctuRitWJOmoCm9VdnTHTPI9CCeQJB7jx5dU0XHo7vW1nfJjpxmZ+DZeut9+Ycg==
+bulmil@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.2.0.tgz#ee5e39a9b0e4f84361b9b39d9b60a81d25d8b976"
+  integrity sha512-fVsC1QOQfbNr4fuNn08ZnTZWaSh0Trk24nOOf4c/PUp/A/A47WV6EvFgQrWCOX1ArW8QcOx5s6ljsLqyu58sfA==
   dependencies:
     bulma-divider "^0.2.0"
     bulma-scss "^0.8.1"
+    bulma-slider "^2.0.0"
     bulma-switch "^2.0.0"
 
 bytes@3.0.0:
