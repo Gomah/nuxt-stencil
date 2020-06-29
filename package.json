@@ -34,7 +34,7 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "consola": "^2.13.0"
+    "consola": "^2.14.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
