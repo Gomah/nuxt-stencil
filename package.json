@@ -46,7 +46,7 @@
     "@types/node": "^14.0.26",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
-    "babel-jest": "^26.1.0",
+    "babel-jest": "^26.2.2",
     "bulmil": "^0.6.5",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-typescript": "^7.2.1",
