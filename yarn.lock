@@ -3248,10 +3248,10 @@ bulma-switch@^2.0.0:
   resolved "https://registry.yarnpkg.com/bulma-switch/-/bulma-switch-2.0.0.tgz#7a187cd1bb8073e9a542478d936b89315f1ffcd8"
   integrity sha512-myD38zeUfjmdduq+pXabhJEe3x2hQP48l/OI+Y0fO3HdDynZUY/VJygucvEAJKRjr4HxD5DnEm4yx+oDOBXpAA==
 
-bulmil@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.7.0.tgz#187d7898e284e9f7ba3528ca705ac2996bb08c26"
-  integrity sha512-dpO39P4df4QLW7n1lEyutwA9Bb4SMUc/Hhn8lg57lzSHHTF2xtiTUu/CKbwyfYDy2dRrL8ezgMcbz4VhilC3uQ==
+bulmil@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/bulmil/-/bulmil-0.7.2.tgz#c8a90851fdea2b8a95cba97495e95d93ff04e0c0"
+  integrity sha512-nipYMdFt18CiplBKpiQ8M08o7woghy8wbwqGdzk4skZyjYKwcAcUVJf+5O8o4lYvwTSka3gaURZ2E0Z1fWv/VQ==
   dependencies:
     "@creativebulma/bulma-badge" "^1.0.1"
     bulma-divider "^0.2.0"
