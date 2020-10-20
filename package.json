@@ -39,7 +39,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^11.0.0",
-    "@nuxt/types": "^2.14.6",
+    "@nuxt/types": "^2.14.7",
     "@types/consola": "^2.2.5",
     "@types/jest": "^26.0.14",
     "@types/jsdom": "^16.2.4",
