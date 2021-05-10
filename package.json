@@ -55,7 +55,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
     "jest": "^25.4.0",
-    "nuxt": "^2.12.2",
+    "nuxt": "^2.15.5",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.3.0",
