@@ -61,6 +61,6 @@
     "standard-version": "^9.3.0",
     "ts-jest": "^25.5.1",
     "ts-node": "^10.0.0",
-    "typescript": "^3.9.9"
+    "typescript": "^3.9.10"
   }
 }
