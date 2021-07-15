@@ -1,4 +1,5 @@
 import path from 'path';
+import os from 'os';
 import { renderStencil } from './helpers';
 
 interface NuxtStencilOptions {
@@ -37,6 +38,16 @@ function stencilModule(_moduleOptions): void {
   // Assign loaderPath if not defined
   if (!moduleOptions.loaderPath) {
     Object.assign(moduleOptions, { loaderPath: `${moduleOptions.lib}/dist/loader` });
+  }
+
+  if (os.platform() === 'win32') {
+    const splitLibPath = moduleOptions.lib.split(path.sep);
+    const splitLoaderPath = moduleOptions.loaderPath.split(path.sep);
+    const splitHydratePath = moduleOptions.hydratePath.split(path.sep);
+
+    moduleOptions.lib = path.posix.normalize(path.posix.join(...splitLibPath));
+    moduleOptions.loaderPath = path.posix.normalize(path.posix.join(...splitLoaderPath));
+    moduleOptions.hydratePath = path.posix.normalize(path.posix.join(...splitHydratePath));
   }
 
   // Add CSR plugin for Stencil
